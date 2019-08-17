@@ -3,4 +3,5 @@ def nyc_pigeon_organizer(data)
   data.each{|attribute, data_hash|
   data_hash.each{|property, names|
   names.each{|name|
+  
 end
