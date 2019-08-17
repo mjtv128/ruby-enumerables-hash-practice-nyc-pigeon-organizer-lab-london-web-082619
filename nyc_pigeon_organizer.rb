@@ -8,5 +8,5 @@ def nyc_pigeon_organizer(data)
   }
   }
   
-  data[:color]
+  data[:color].each{|
 end
