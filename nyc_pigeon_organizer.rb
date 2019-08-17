@@ -1,9 +1,9 @@
 def nyc_pigeon_organizer(data)
-  hash = {}
+  new = {}
   data.each{|attribute, data_hash|
   data_hash.each{|property, names|
   names.each{|name|
-  hash[name] = {:color => [], :gender: [], :live => []}
+  new[name] = {:color => [], :gender: [], :live => []}
   }
   }
   }
@@ -11,4 +11,5 @@ def nyc_pigeon_organizer(data)
   data[:color].each{|property, names|
   names.each{|name|
   if data[:color][property].include?(name)
+    new[name][:color] = 
 end
