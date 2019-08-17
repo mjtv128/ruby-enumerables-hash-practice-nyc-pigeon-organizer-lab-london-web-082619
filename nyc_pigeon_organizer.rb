@@ -11,5 +11,5 @@ def nyc_pigeon_organizer(data)
   data[:color].each{|property, names|
   names.each{|name|
   if data[:color][property].include?(name)
-    new[name][:color] = 
+    new[name][:color] << 
 end
